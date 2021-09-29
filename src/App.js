@@ -44,14 +44,14 @@ class App extends React.Component{
       <div >
         <Header currentUser={this.state.currentUser} />
         <Switch>
-          <Route exact path='/' component={HomePage} />
-          <Route path='/shop' component={ShopPage} />
-          <Route path='/signin' component={SignInAndSignUpPage} />
+          <Route exact path='/crwn-clothing' component={HomePage} />
+          <Route path='/crwn-clothing/shop' component={ShopPage} />
+          <Route path='/crwn-clothing/signin' component={SignInAndSignUpPage} />
         </Switch>
       </div>
     );
   }
-  
+
 }
 
 export default App;
